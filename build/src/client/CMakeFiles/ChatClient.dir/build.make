@@ -60,15 +60,15 @@ include src/client/CMakeFiles/ChatClient.dir/flags.make
 src/client/CMakeFiles/ChatClient.dir/main.cpp.o: src/client/CMakeFiles/ChatClient.dir/flags.make
 src/client/CMakeFiles/ChatClient.dir/main.cpp.o: ../src/client/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/client/CMakeFiles/ChatClient.dir/main.cpp.o"
-	cd /root/code/build/src/client && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatClient.dir/main.cpp.o -c /root/code/src/client/main.cpp
+	cd /root/code/build/src/client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatClient.dir/main.cpp.o -c /root/code/src/client/main.cpp
 
 src/client/CMakeFiles/ChatClient.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatClient.dir/main.cpp.i"
-	cd /root/code/build/src/client && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/src/client/main.cpp > CMakeFiles/ChatClient.dir/main.cpp.i
+	cd /root/code/build/src/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/src/client/main.cpp > CMakeFiles/ChatClient.dir/main.cpp.i
 
 src/client/CMakeFiles/ChatClient.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatClient.dir/main.cpp.s"
-	cd /root/code/build/src/client && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/src/client/main.cpp -o CMakeFiles/ChatClient.dir/main.cpp.s
+	cd /root/code/build/src/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/src/client/main.cpp -o CMakeFiles/ChatClient.dir/main.cpp.s
 
 src/client/CMakeFiles/ChatClient.dir/main.cpp.o.requires:
 
