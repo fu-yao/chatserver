@@ -1,14 +1,12 @@
 #ifndef CHATSERVICE_H
 #define CHATSERVICE_H
 
-#include <muduo/net/TcpConnection.h>
-#include <muduo/net/EventLoop.h>
+#include <mymuduo/TcpConnection.hpp>
+#include <mymuduo//EventLoop.hpp>
 #include <functional>
 #include <mutex>
 #include <memory>
 using namespace std;
-using namespace muduo;
-using namespace muduo::net;
 
 #include "redis.hpp"
 #include "usermodel.hpp"

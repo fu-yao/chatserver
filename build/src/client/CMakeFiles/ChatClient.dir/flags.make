@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/code/include -I/root/code/include/server -I/root/code/include/server/db -I/root/code/include/server/model -I/root/code/include/server/redis -I/root/code/thirdparty 
+CXX_INCLUDES = -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty 
 

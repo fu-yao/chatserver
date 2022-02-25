@@ -116,8 +116,8 @@ void Redis::observer_channel_message()
     while (REDIS_OK == redisGetReply(this->_subcribe_context, (void **)&reply))
     {
         // 订阅收到的消息是一个带三元素的数组
-        cout << "hello!" << endl;
-        cout << "三元组：" <<  reply->element[1]->str << " " << reply->element[2]->str << endl;
+        //cout << "hello!" << endl;
+        //cout << "三元组：" <<  reply->element[1]->str << " " << reply->element[2]->str << endl;
         if (reply != nullptr && reply->element[2] != nullptr && reply->element[2]->str != nullptr)
         {
             // 给业务层上报通道上发生的消息

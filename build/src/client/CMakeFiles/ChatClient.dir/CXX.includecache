@@ -356,9 +356,9 @@ limits
 type_traits
 -
 
-/root/code/src/client/main.cpp
+/root/myProject/ChatRoom/src/client/main.cpp
 json.hpp
-/root/code/src/client/json.hpp
+/root/myProject/ChatRoom/src/client/json.hpp
 iostream
 -
 thread
@@ -386,9 +386,9 @@ semaphore.h
 atomic
 -
 group.hpp
-/root/code/src/client/group.hpp
+/root/myProject/ChatRoom/src/client/group.hpp
 user.hpp
-/root/code/src/client/user.hpp
+/root/myProject/ChatRoom/src/client/user.hpp
 public.hpp
-/root/code/src/client/public.hpp
+/root/myProject/ChatRoom/src/client/public.hpp
 

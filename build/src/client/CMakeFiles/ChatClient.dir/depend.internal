@@ -7,4 +7,4 @@ src/client/CMakeFiles/ChatClient.dir/main.cpp.o
  ../include/server/model/groupuser.hpp
  ../include/server/model/user.hpp
  ../thirdparty/json.hpp
- /root/code/src/client/main.cpp
+ /root/myProject/ChatRoom/src/client/main.cpp

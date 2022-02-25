@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/code/src/client/main.cpp" "/root/code/build/src/client/CMakeFiles/ChatClient.dir/main.cpp.o"
+  "/root/myProject/ChatRoom/src/client/main.cpp" "/root/myProject/ChatRoom/build/src/client/CMakeFiles/ChatClient.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

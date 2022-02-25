@@ -1,4 +1,4 @@
-# Install script for directory: /root/code
+# Install script for directory: /root/myProject/ChatRoom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/code/build/src/cmake_install.cmake")
+  include("/root/myProject/ChatRoom/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/myProject/ChatRoom/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

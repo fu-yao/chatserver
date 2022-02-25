@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/code/src/server/chatserver.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
-  "/root/code/src/server/chatservice.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
-  "/root/code/src/server/db/db.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
-  "/root/code/src/server/main.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
-  "/root/code/src/server/model/friendmodel.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o"
-  "/root/code/src/server/model/groupmodel.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
-  "/root/code/src/server/model/offlinemessagemodel.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
-  "/root/code/src/server/model/usermodel.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
-  "/root/code/src/server/redis/redis.cpp" "/root/code/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
+  "/root/myProject/ChatRoom/src/server/chatserver.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
+  "/root/myProject/ChatRoom/src/server/chatservice.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+  "/root/myProject/ChatRoom/src/server/db/db.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/root/myProject/ChatRoom/src/server/db/mysqlConnectionPool.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/db/mysqlConnectionPool.cpp.o"
+  "/root/myProject/ChatRoom/src/server/main.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/root/myProject/ChatRoom/src/server/model/friendmodel.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o"
+  "/root/myProject/ChatRoom/src/server/model/groupmodel.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
+  "/root/myProject/ChatRoom/src/server/model/offlinemessagemodel.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
+  "/root/myProject/ChatRoom/src/server/model/usermodel.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
+  "/root/myProject/ChatRoom/src/server/redis/redis.cpp" "/root/myProject/ChatRoom/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2,6 +2,8 @@
 #include "chatservice.hpp"
 #include <iostream>
 #include <signal.h>
+#include <sys/types.h>
+#include <sys/socket.h>
 using namespace std;
 
 // 处理服务器ctrl+c结束后，重置user的状态信息
@@ -25,12 +27,13 @@ int main(int argc, char **argv)
 
     signal(SIGINT, resetHandler);
 
-    EventLoop loop;
-    InetAddress addr(ip, port);
+    EventLoop loop; //epoll
+    InetAddress addr(port,ip);
     ChatServer server(&loop, addr, "ChatServer");
+    //cout << "SOCKMAXCONN:" << SOMAXCONN << endl;
 
-    server.start();
-    loop.loop();
+    server.start();     //listenfd epoll_ctl => epoll
+    loop.loop();        //epoll_wait以阻塞方式等待新用户连接,已连接用户的读写时间等
 
     return 0;
 }

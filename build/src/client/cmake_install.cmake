@@ -1,4 +1,4 @@
-# Install script for directory: /root/code/src/client
+# Install script for directory: /root/myProject/ChatRoom/src/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

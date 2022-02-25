@@ -1,11 +1,12 @@
 #include "chatservice.hpp"
 #include "public.hpp"
-#include <muduo/base/Logging.h>
+#include <mymuduo/Logger.hpp>
+#include <functional>
 #include <vector>
 #include <string>
 /*-----------------------------------*/
 #include <iostream>
-using namespace std;
+using namespace placeholders;
 
 //获取单例对象的接口函数
 //线程安全的单例对象
@@ -59,7 +60,8 @@ MsgHandler ChatService::getHandler(int msgid)
         return [=](const TcpConnectionPtr &con, json &js, Timestamp time)
         {
             //LOG自带换行
-            LOG_ERROR << "msgid:" << msgid << "can not find handler!";
+            // LOG_ERROR << "msgid:" << msgid << "can not find handler!";
+            LOG_ERROR("msgid: %d can not find handler!",msgid);
         };
     }
     else
@@ -76,7 +78,7 @@ void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
     //要转换
     int id = js["id"].get<int>();
     string pwd = js["password"];
-    cout << "登录信息js:" << js << endl;
+    //cout << "登录信息js:" << js << endl;
 
     User user = _userModel.query(id);
 

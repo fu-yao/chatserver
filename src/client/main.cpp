@@ -292,6 +292,8 @@ void readTaskHandler(int clientfd)
     {
         char buffer[1024] = {0};
         int len = recv(clientfd, buffer, 1024, 0);
+        cout << "len=" << len << endl;
+        cout << "buffer:" << buffer << endl;
         if (-1 == len || 0 == len)
         {
             close(clientfd);

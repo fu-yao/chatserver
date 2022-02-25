@@ -1,4 +1,4 @@
-# Install script for directory: /root/code/src
+# Install script for directory: /root/myProject/ChatRoom/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/code/build/src/server/cmake_install.cmake")
-  include("/root/code/build/src/client/cmake_install.cmake")
+  include("/root/myProject/ChatRoom/build/src/server/cmake_install.cmake")
+  include("/root/myProject/ChatRoom/build/src/client/cmake_install.cmake")
 
 endif()
 
