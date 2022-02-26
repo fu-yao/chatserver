@@ -5,7 +5,7 @@
 //  数据库配置信息
 static std::string server = "127.0.0.1";
 static std::string user = "root";
-static std::string password = "661069QXFqxf!";
+static std::string password = "123456";
 static std::string dbname = "chat";
 
 //初始化数据库连接
