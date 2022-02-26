@@ -78,10 +78,7 @@ void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
     //要转换
     int id = js["id"].get<int>();
     string pwd = js["password"];
-    //cout << "登录信息js:" << js << endl;
-
     User user = _userModel.query(id);
-
     
     if (user.getId() == id && user.getPwd() == pwd)
     {

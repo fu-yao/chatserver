@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /root/myProject/ChatRoom/src/server/chatserver.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/chatserver.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /root/myProject/ChatRoom/src/server/chatservice.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/chatservice.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /root/myProject/ChatRoom/src/server/main.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/main.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/mysqlConnectionPool.cpp.o -c /root/myProject/ChatRoom/src/server/db/mysqlConnectionPool.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/db/mysqlConnectionPool.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /root/myProject/ChatRoom/src/server/db/db.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/db/db.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /root/myProject/ChatRoom/src/server/model/friendmodel.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /root/myProject/ChatRoom/src/server/model/groupmodel.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /root/myProject/ChatRoom/src/server/model/usermodel.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /root/myProject/ChatRoom/src/server/model/offlinemessagemodel.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/server",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /root/myProject/ChatRoom/src/server/redis/redis.cpp",
+  "file": "/root/myProject/ChatRoom/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/root/myProject/ChatRoom/build/src/client",
+  "command": "/usr/bin/g++    -I/root/myProject/ChatRoom/include -I/root/myProject/ChatRoom/include/server -I/root/myProject/ChatRoom/include/server/db -I/root/myProject/ChatRoom/include/server/model -I/root/myProject/ChatRoom/include/server/redis -I/root/myProject/ChatRoom/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /root/myProject/ChatRoom/src/client/main.cpp",
+  "file": "/root/myProject/ChatRoom/src/client/main.cpp"
+}
+]
